@@ -1,0 +1,40 @@
+# General
+.DS_Store
+.vscode/
+
+# Dependencies
+**/node_modules/
+**/dist/
+**/build/
+.pnp
+.pnp.js
+
+# Environment
+**/.env
+**/.env*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+**/.venv/
+**/venv/
+.mypy_cache/
+
+# Hardhat
+/cache
+/artifacts
+/coverage
+/coverage.json
+/typechain
+/typechain-types
+ignition/deployments/chain-31337
+
+# Testing
+/coverage
